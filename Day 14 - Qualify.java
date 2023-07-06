@@ -1,4 +1,4 @@
-import java.utimport java.util.*;
+import java.util.*;
 class Qualify{
     public static void main(String[] args) {
         Scanner obj=new Scanner(System.in);
