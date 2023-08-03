@@ -30,10 +30,10 @@ class Solution
     {
         //code here
          if(l<r){
-            int mid=l+(r-l)/2;
-            mergeSort(arr,l,mid);
-            mergeSort(arr,mid+1,r);
-            merge(arr,l,mid,r);
+            int m=l+(r-l)/2;
+            mergeSort(arr,l,m);
+            mergeSort(arr,m+1,r);
+            merge(arr,l,m,r);
         }
     }
 }
