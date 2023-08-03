@@ -9,7 +9,8 @@ class Solution
              if(arr[i]<=arr[j]){
                  a.add(arr[i]);
                  i++;
-             }else{
+             }
+             else{
                  a.add(arr[j]);
                  j++;
              }
