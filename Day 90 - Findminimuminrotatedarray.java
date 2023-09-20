@@ -1,4 +1,4 @@
-lass Solution {
+class Solution {
     public int findMin(int[] nums) {
         int l=0,h=nums.length-1,ans=nums[0];
         while(l<=h){
